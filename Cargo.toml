@@ -1,0 +1,14 @@
+[package]
+name = "atomic_ptr_cell"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Alexander Schütz <aschuetz@protonmail.com>"]
+keywords = ["lockfree", "atomic", "ptr", "cell"]
+categories = ["data-structures"]
+description = "Safe no_std repr(transparent) wrapper for AtomicPtr and &AtomicPtr with an api similar to a cell."
+readme = "README.md"
+repository = "https://github.com/AlexanderSchuetz97/atomic_ptr_cell"
+
+
+[dependencies]
